@@ -1,6 +1,5 @@
 ﻿using DotNetMySqlEFRestAPI.Data.Models;
 using DotNetMySqlEFRestAPI.Data.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNetMySqlEFRestAPI.Controllers
