@@ -17,7 +17,7 @@ namespace DotNetMySqlEFRestAPI.Data.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("connectionstring");
+            optionsBuilder.UseMySQL(_connectionString);
         }
     }
 }
